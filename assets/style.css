@@ -1,0 +1,119 @@
+
+.main-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    background: rgb(32, 32, 32);  
+    color: aqua;  
+
+}
+
+h1 {
+    background: aqua;
+    color: rgb(32, 32, 32);
+}
+
+.subtitle {
+    background:
+  linear-gradient(135deg, #022657 25%, transparent 25%) -50px 0,
+  linear-gradient(225deg, #022657 25%, transparent 25%) -50px 0,
+  linear-gradient(315deg, #022657 25%, transparent 25%),
+  linear-gradient(45deg, #022657 25%, transparent 25%);
+background-size: 100px 100px;
+background-color: #6da7ff;
+    color: rgb(32, 32, 32);
+    padding: 60px;
+    margin-top: 0%;
+    text-align: right;
+}
+
+
+
+
+nav {
+    display: flex;
+    
+}
+
+  nav ul {
+      text-align: right;
+  }
+
+  li {
+      display: inline-flex;
+  }
+
+  nav a {
+    color: aqua;
+    padding: 20px 20px;
+    text-decoration: underline;
+    
+
+    }
+
+   
+  main {
+      display: flex;
+      flex-wrap: wrap;
+      color: rgb(57, 48, 110);
+      background: #cff6fd;
+      margin-top: -20px;
+  }
+
+  aside {
+    flex: 1;
+    background-color: #cff6fd;
+    padding: 20px;
+  }
+
+
+  
+  .float-left {
+      float: left;
+      margin-right: 50px;
+      height: 200px;
+      width: 200px;
+      padding-right: 10px;
+      font-size: 20px;
+      border-right: solid 5px;
+     
+      
+  }
+
+  .float-right {
+      float: right;
+      margin-left: 20px;
+      height: 200px;
+      width: 500px;
+    
+
+  }
+  section {
+    flex: 2;
+    background-color: #cff6fd;
+    padding: 20px;
+  }
+
+ 
+  content {
+    width: 20%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.information {
+    margin-right: 20px;
+    padding: 20px;
+    float: right;
+    width: 20%;
+    height: 100%;
+     
+}
+
+.footer {
+    
+    text-decoration: underline;
+    
+
+}
