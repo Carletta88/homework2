@@ -1,0 +1,134 @@
+
+.main-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2px;
+    background: rgb(32, 32, 32);  
+    color: aqua;  
+}
+
+h1 {
+    background: aqua;
+    color: rgb(32, 32, 32);
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    text-align: right;
+}
+
+li {
+    display: inline-flex;
+}
+
+nav a {
+    color: aqua;
+    padding: 20px 20px;
+    text-decoration: underline;
+}
+
+h2 {
+    float: right;
+    background: aqua;
+    color: rgb(32, 32, 32);
+    width: 15%;
+    margin: 0%;
+    text-align: right;
+}
+
+.subtitle {
+    background:
+  linear-gradient(135deg, #022657 25%, transparent 25%) -50px 0,
+  linear-gradient(225deg, #022657 25%, transparent 25%) -50px 0,
+  linear-gradient(315deg, #022657 25%, transparent 25%),
+  linear-gradient(45deg, #022657 25%, transparent 25%);
+background-size: 100px 100px;
+background-color: #6da7ff;
+    color: rgb(32, 32, 32);
+    padding: 70px;
+    height: 20%;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(57, 48, 110);
+    background: #cff6fd;
+    width: 100%;
+
+}
+
+.row1 {
+    width: 100%;
+    height: 150px;
+    background-size: 100% 100%; 
+    margin: 2%;
+    flex: 2%;
+}
+.about {
+    float: left;
+    padding: 2%;
+    border-right: darkblue solid 2px;
+}
+
+.about-info {
+    float: right;
+    margin-left: 20%;
+    margin-top: -80px;
+  
+}
+
+.row2 {
+    width: 100%;
+    height: 150px;
+    /* background: url("image1-sm.jpg"); */
+    background-size: 100% 100%; 
+    margin: 2%;
+    flex: 2%;
+}
+
+.work {
+    float: left;
+    padding: 2%;
+    border-right: darkblue solid 2px;
+}
+
+.large-image {
+    width: 100%;
+    min-width: 400px;
+  }
+
+  .small-images .smaller-images {
+      width: 50%;
+  }
+
+.row3 {
+    width: 100%;
+    height: 150px;
+    background-size: 100% 100%; 
+    margin: 2%;
+    flex: 2%; 
+}
+.contact {
+    float: left;
+    padding: 2%;
+    border-right: darkblue solid 2px;
+}
+
+.contact-info {
+    text-align: center;
+    text-decoration: underline;
+
+}  
+
+
+
+
+  
+ 
+
+        
