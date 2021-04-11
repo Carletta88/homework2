@@ -85,19 +85,25 @@ main {
 
 
 
-.big-pic img{
+.big-pic img {
     width: 100%;
     height: auto;
     border: aqua solid 5px;
   } 
 
-.photo-title
+.photo-title {
+    position: absolute;
+    /* top: 50px;
+    left: 0; */
+    background-color: aqua;
+    padding: 10px 10px;
+ }
 
 #bottom {
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
-  }
+}
 
 
 .small-pic img {
@@ -129,17 +135,43 @@ main {
 }
 
 .footer-main-content a {
-    color: rgb(57, 48, 110);
-    background-color: aqua;
+    background-color: rgb(57, 48, 110);
+    color: aqua;
+}
     
+
+
+@media screen and (max-width: 802px) {
+    h2 {
+        width: 150px;
+    }
 }
 
-@media screen and (max-width: 700px) {
-    main {
-        background-color: aqua;
+@media screen and (max-width: 720px) {
+     h3 {
+        position: absolute;
+        margin-left: 5px;
+        margin-top: -25px;
     }
 
+    .row {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .side-content {
+        border:0;
+        margin-left: 200px;
+        
+    }
+
+    img {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
 }
+
+
 
 
   
