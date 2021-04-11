@@ -70,7 +70,7 @@ main {
     margin: 50px 0;
 }
 .side-content {
-    border-right: darkblue solid 2px;
+    border-right: darkblue solid 5px;
     padding: 20px;
     font-size: 30px;
     width: 20%;
